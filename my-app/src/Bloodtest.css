@@ -1,0 +1,59 @@
+.blood-test-header {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.blood-test-header h2 {
+  font-size: 28px;
+  color: #333;
+}
+
+.date {
+  color: #888;
+}
+
+.supplement-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.supplement-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.supplement-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-right: 1px solid #ddd;
+}
+
+.supplement-info {
+  padding: 10px 15px;
+}
+
+.supplement-info h3 {
+  margin: 0 0 5px;
+  font-size: 18px;
+  color: #333;
+}
+
+.dosage {
+  font-size: 16px;
+  color: #4caf50;
+  margin: 5px 0;
+}
+
+.description {
+  font-size: 14px;
+  color: #777;
+}

@@ -1,0 +1,18 @@
+.navbar {
+  background-color: #dae0d7;
+  padding: 10px;
+  margin: 10px 0;
+}
+.navbarMenu {
+  margin: 25px 15px;
+  text-decoration: none;
+  caret-color: transparent;
+  color: #333;
+  font-weight: 500;
+}
+.navbarMenu:hover {
+  background-color: #666;
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 5%;
+}

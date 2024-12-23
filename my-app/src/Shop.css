@@ -1,0 +1,66 @@
+.title-section {
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.title-section h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.sub-title {
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.sort-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.sort-buttons button {
+  padding: 8px 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f4f4f4;
+  cursor: pointer;
+}
+
+.sort-buttons .default {
+  background-color: #4caf50;
+  color: white;
+}
+
+.product-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.product-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  width: 30%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.price {
+  color: #4caf50;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.location {
+  color: #888;
+  font-size: 14px;
+}

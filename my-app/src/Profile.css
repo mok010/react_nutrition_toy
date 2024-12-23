@@ -1,0 +1,53 @@
+.profile-header {
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.profile-header h2 {
+  font-size: 28px;
+  color: #333;
+}
+
+.profile-card {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.profile-icon img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+}
+
+.profile-info h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.edit-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.profile-details p {
+  margin: 10px 0;
+  font-size: 16px;
+}
