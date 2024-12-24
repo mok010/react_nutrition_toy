@@ -6,6 +6,7 @@ import Nav from "./Nav";
 import Header from "./Header";
 import Bloodtest from "./Bloodtest";
 import Profile from "./Profile";
+import Basket from "./Basket";
 import "./App.css";
 
 function App() {
@@ -54,6 +55,7 @@ function App() {
           <Route path="/Shop" element={<Shop />} />
           <Route path="/Bloodtest" element={<Bloodtest />} />
           <Route path="/Profile" element={<Profile />} />
+          <Route path="/basket" element={<Basket />} />
 
           {/* Image Section */}
         </Routes>

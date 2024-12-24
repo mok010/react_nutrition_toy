@@ -11,7 +11,9 @@ function Header() {
         </h1>
       </div>
       <div className="basket-container">
-        <button className="basket">Basket (3)</button>
+        <Link to="/basket">
+          <button className="basket">Basket (3)</button>
+        </Link>
       </div>
     </div>
   );
